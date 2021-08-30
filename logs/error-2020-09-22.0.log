@@ -1,0 +1,32 @@
+2020-09-22 18:17:17.181 [main] ERROR com.zjb.utils.ReadConf - ExceptionTest Exception:
+java.io.FileNotFoundException: D:\Program%20Files\javaworkspace\TestSm34\target\conf\config.properties (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.zjb.utils.ReadConf.readconf(ReadConf.java:97)
+	at com.zjb.utils.ReadConf.setUrlGenerateRandom(ReadConf.java:44)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:109)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+2020-09-22 18:17:17.939 [main] ERROR com.zjb.encode.EncodeFile - ExceptionTest Exception:
+java.lang.RuntimeException: org.apache.http.client.ClientProtocolException
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:75)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:122)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+Caused by: org.apache.http.client.ClientProtocolException: null
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:67)
+	... 3 common frames omitted
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	... 7 common frames omitted
+2020-09-22 18:17:17.940 [main] ERROR com.zjb.encode.EncodeFile - sm4Encode randomN is null or empty
+2020-09-22 18:17:17.940 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope randomN is null or empty
+2020-09-22 18:17:17.940 [main] ERROR com.zjb.utils.RWFile - writeFile: encrypted is null

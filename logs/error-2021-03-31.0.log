@@ -1,0 +1,73 @@
+2021-03-31 17:14:56.643 [main] ERROR com.zjb.encode.EncodeFile - ExceptionTest Exception:
+java.lang.RuntimeException: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.113.131:8083 [/192.168.113.131] failed: Connection timed out: connect
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:75)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:126)
+	at com.zjb.utils.RWFile.enFile2(RWFile.java:273)
+	at com.zjb.utils.RWFile.main(RWFile.java:47)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.113.131:8083 [/192.168.113.131] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:67)
+	... 3 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 14 common frames omitted
+2021-03-31 18:28:34.848 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testdat\\11000000000020214331164307_p@XijCys80UGrZBPeOsnbSCGdkgeWyC4Nf/A19hehXExw=.dat rename fail
+2021-03-31 18:29:47.460 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testdat\11000000000020214331164307_p@XijCys80UGrZBPeOsnbSCGdkgeWyC4Nf/A19hehXExw=.dat rename fail
+2021-03-31 18:30:57.374 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testdat\11000000000020214331164307_p@LPlrqHictxmuSqFOhR/2rI02nguuQyokspGxNj48HL4=.dat rename fail
+2021-03-31 18:33:42.155 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testdat\11000000000020214331164307_p@LPlrqHictxmuSqFOhR/2rI02nguuQyokspGxNj48HL4=.dat rename fail
+2021-03-31 18:36:36.319 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testdat\11000000000020214331164307_p@LPlrqHictxmuSqFOhR/2rI02nguuQyokspGxNj48HL4=.dat rename fail
+2021-03-31 18:39:08.731 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testdat\11000000000020214331164307_p@LPlrqHictxmuSqFOhR/2rI02nguuQyokspGxNj48HL4=.dat rename fail
+2021-03-31 18:57:39.490 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testdat\11000000000020214331164307_p_data_extract_t.txt@LPlrqHictxmuSqFOhR/2rI02nguuQyokspGxNj48HL4=.dat rename fail
+2021-03-31 19:07:51.330 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testdat\11000000000020214331164307_p_data_extract_t.txt@LPlrqHictxmuSqFOhR/2rI02nguuQyokspGxNj48HL4=.dat rename fail
+2021-03-31 19:18:11.347 [main] ERROR com.zjb.utils.RWFile - D:\\testZip\\testdat\\11000000000020214331164307_p_data_extract_t.txt@LPlrqHictxmuSqFOhR/2rI02nguuQyokspGxNj48HL4=.dat rename fail
+2021-03-31 19:19:19.548 [main] ERROR com.zjb.utils.RWFile - D:\\testZip\\testdat\\11000000000020214331164307_p_data_extract_t.txt@LPlrqHictxmuSqFOhR/2rI02nguuQyokspGxNj48HL4=.dat rename fail
+2021-03-31 19:19:44.673 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testdat\11000000000020214331164307_p_data_extract_t.txt@LPlrqHictxmuSqFOhR/2rI02nguuQyokspGxNj48HL4=.dat rename fail
+2021-03-31 19:30:03.279 [main] ERROR com.zjb.utils.RWFile - doFileDigest: srcFilePath is not file
+2021-03-31 20:26:00.572 [main] ERROR com.zjb.encode.EncodeFile - ExceptionTest Exception:
+java.lang.RuntimeException: java.net.NoRouteToHostException: No route to host: connect
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:75)
+	at com.zjb.decode.DecodeFile.decodeSignedAndEnvelope(DecodeFile.java:148)
+	at com.zjb.utils.RWFile.deFile3(RWFile.java:935)
+	at com.zjb.utils.RWFile.main(RWFile.java:50)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:67)
+	... 3 common frames omitted

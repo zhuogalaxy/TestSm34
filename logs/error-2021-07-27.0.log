@@ -1,0 +1,15 @@
+2021-07-27 11:15:17.363 [main] ERROR com.zjb.utils.RWFile - 404
+2021-07-27 11:15:17.364 [main] ERROR com.zjb.utils.RWFile - The specified key does not exist.
+2021-07-27 11:15:17.364 [main] ERROR com.zjb.utils.RWFile - NoSuchKey
+2021-07-27 11:15:17.364 [main] ERROR com.zjb.utils.RWFile - Not Found
+2021-07-27 11:15:17.365 [main] ERROR com.zjb.utils.RWFile - obs upload fail
+2021-07-27 11:17:50.054 [main] ERROR com.zjb.utils.RWFile - 404
+2021-07-27 11:17:50.055 [main] ERROR com.zjb.utils.RWFile - The specified key does not exist.
+2021-07-27 11:17:50.055 [main] ERROR com.zjb.utils.RWFile - NoSuchKey
+2021-07-27 11:17:50.055 [main] ERROR com.zjb.utils.RWFile - Not Found
+2021-07-27 11:17:50.056 [main] ERROR com.zjb.utils.RWFile - obs upload fail
+2021-07-27 17:18:00.788 [main] ERROR com.zjb.utils.RWFile - 404
+2021-07-27 17:18:00.789 [main] ERROR com.zjb.utils.RWFile - The specified key does not exist.
+2021-07-27 17:18:00.789 [main] ERROR com.zjb.utils.RWFile - NoSuchKey
+2021-07-27 17:18:00.789 [main] ERROR com.zjb.utils.RWFile - Not Found
+2021-07-27 17:18:00.789 [main] ERROR com.zjb.utils.RWFile - downObj fail

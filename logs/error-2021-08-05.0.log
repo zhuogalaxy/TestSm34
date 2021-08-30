@@ -1,0 +1,5 @@
+2021-08-05 17:37:22.480 [main] ERROR com.zjb.utils.RWFile - 404
+2021-08-05 17:37:22.483 [main] ERROR com.zjb.utils.RWFile - Request Error.
+2021-08-05 17:37:22.483 [main] ERROR com.zjb.utils.RWFile - null
+2021-08-05 17:37:22.484 [main] ERROR com.zjb.utils.RWFile - Not Found
+2021-08-05 17:37:22.484 [main] ERROR com.zjb.utils.RWFile - obs upload fail

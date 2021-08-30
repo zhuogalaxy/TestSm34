@@ -1,0 +1,4 @@
+2021-05-12 10:40:15.620 [main] ERROR com.zjb.encode.EncodeFile - decodeSignedAndEnvelope code = 16777217
+2021-05-12 10:40:15.636 [main] ERROR com.zjb.encode.EncodeFile - decodeSignedAndEnvelope desc = 解码基于SM2算法的带签名的数字信封数据失败: com.sansec.device2.crypto.CryptoException: Socket[addr=/127.0.0.1,port=8008,localport=45318] return( 带签名数字信封.解密错误[ 0x0100061C ] )
+2021-05-12 10:40:41.388 [main] ERROR com.zjb.encode.EncodeFile - decodeSignedAndEnvelope code = 16777217
+2021-05-12 10:40:41.388 [main] ERROR com.zjb.encode.EncodeFile - decodeSignedAndEnvelope desc = 解码基于SM2算法的带签名的数字信封数据失败: com.sansec.device2.crypto.CryptoException: Socket[addr=/127.0.0.1,port=8008,localport=45320] return( 带签名数字信封.解密错误[ 0x0100061C ] )

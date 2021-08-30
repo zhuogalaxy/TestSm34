@@ -1,0 +1,32 @@
+2020-09-22 18:17:17.121 [main] INFO  com.zjb.utils.RWFile - readFile: finish
+2020-09-22 18:17:17.138 [main] INFO  com.zjb.utils.RWFile - readFile use time: 44 ms
+2020-09-22 18:17:17.176 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program%20Files\javaworkspace\TestSm34\target
+2020-09-22 18:17:17.939 [main] INFO  com.zjb.utils.RWFile - generateRandom use time: 801 ms
+2020-09-22 18:17:17.940 [main] INFO  com.zjb.utils.RWFile - sm4Encode use time: 0 ms
+2020-09-22 18:17:17.940 [main] INFO  com.zjb.utils.RWFile - encodeSignedAndEnvelope use time: 0 ms
+2020-09-22 18:28:54.749 [main] INFO  com.zjb.utils.RWFile - readFile: finish
+2020-09-22 18:28:54.751 [main] INFO  com.zjb.utils.RWFile - readFile use time: 11 ms
+2020-09-22 18:28:54.762 [main] INFO  com.zjb.utils.ReadConf - path = 
+2020-09-22 18:28:55.454 [main] INFO  com.zjb.encode.EncodeFile - generateRandom success!
+2020-09-22 18:28:55.454 [main] INFO  com.zjb.utils.RWFile - generateRandom use time: 703 ms
+2020-09-22 18:28:55.456 [main] INFO  com.zjb.encode.EncodeFile - sm4Encode success!
+2020-09-22 18:28:55.456 [main] INFO  com.zjb.utils.RWFile - sm4Encode use time: 2 ms
+2020-09-22 18:28:55.456 [main] INFO  com.zjb.utils.ReadConf - path = 
+2020-09-22 18:28:55.463 [main] INFO  com.zjb.utils.ReadConf - path = 
+2020-09-22 18:28:55.475 [main] INFO  com.zjb.encode.EncodeFile - encodeSignedAndEnvelope success!
+2020-09-22 18:28:55.475 [main] INFO  com.zjb.utils.RWFile - encodeSignedAndEnvelope use time: 19 ms
+2020-09-22 18:28:55.476 [main] INFO  com.zjb.utils.RWFile - writeFile: finish
+2020-09-22 18:28:55.476 [main] INFO  com.zjb.utils.RWFile - writeFile: finish
+2020-09-22 18:28:55.476 [main] INFO  com.zjb.utils.RWFile - writeFile use time: 1 ms
+2020-09-22 18:28:55.476 [main] INFO  com.zjb.utils.RWFile - enFile: encode file success
+2020-09-22 18:29:24.660 [main] INFO  com.zjb.utils.RWFile - readFile: finish
+2020-09-22 18:29:24.671 [main] INFO  com.zjb.utils.RWFile - readFile: finish
+2020-09-22 18:29:24.671 [main] INFO  com.zjb.utils.RWFile - readFile use time: 23 ms
+2020-09-22 18:29:24.682 [main] INFO  com.zjb.utils.ReadConf - path = 
+2020-09-22 18:29:25.256 [main] INFO  com.zjb.encode.EncodeFile - decodeSignedAndEnvelope success!
+2020-09-22 18:29:25.256 [main] INFO  com.zjb.utils.RWFile - decodeSignedAndEnvelope use time: 585 ms
+2020-09-22 18:29:25.258 [main] INFO  com.zjb.encode.EncodeFile - sm4Decode success
+2020-09-22 18:29:25.258 [main] INFO  com.zjb.utils.RWFile - sm4Decode use time: 2 ms
+2020-09-22 18:29:25.258 [main] INFO  com.zjb.utils.RWFile - writeFile: finish
+2020-09-22 18:29:25.259 [main] INFO  com.zjb.utils.RWFile - deFile: decode file success
+2020-09-22 18:29:25.259 [main] INFO  com.zjb.utils.RWFile - writeFile use time: 1 ms

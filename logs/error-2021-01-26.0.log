@@ -1,0 +1,296 @@
+2021-01-26 08:22:31.259 [main] ERROR com.zjb.utils.ReadConf - ExceptionTest Exception:
+java.io.FileNotFoundException: D:\Program%20Files\javaworkspace\TestSm34\target\conf\config.properties (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.zjb.utils.ReadConf.readconf(ReadConf.java:98)
+	at com.zjb.utils.ReadConf.setUrlGenerateRandom(ReadConf.java:44)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:109)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+2021-01-26 08:22:32.189 [main] ERROR com.zjb.encode.EncodeFile - ExceptionTest Exception:
+java.lang.RuntimeException: org.apache.http.client.ClientProtocolException
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:75)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:122)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+Caused by: org.apache.http.client.ClientProtocolException: null
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:67)
+	... 3 common frames omitted
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	... 7 common frames omitted
+2021-01-26 08:22:32.190 [main] ERROR com.zjb.encode.EncodeFile - sm4Encode randomN is null or empty
+2021-01-26 08:22:32.191 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope randomN is null or empty
+2021-01-26 08:22:32.191 [main] ERROR com.zjb.utils.RWFile - writeFile: encrypted is null
+2021-01-26 08:24:00.250 [main] ERROR com.zjb.utils.ReadConf - ExceptionTest Exception:
+java.io.FileNotFoundException: D:\Program%20Files\javaworkspace\TestSm34\target\conf\encryptCrt.cert (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.zjb.utils.ReadConf.readcert(ReadConf.java:137)
+	at com.zjb.encode.EncodeFile.encodeSignedAndEnvelope(EncodeFile.java:359)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:97)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+2021-01-26 08:24:00.297 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope = 33554433
+2021-01-26 09:10:26.185 [main] ERROR com.zjb.utils.ReadConf - ExceptionTest Exception:
+java.io.FileNotFoundException: D:\PROGRAM%20FILES\JAVAWORKSPACE\TESTSM34\TARGET\conf\config.properties (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.zjb.utils.ReadConf.readconf(ReadConf.java:98)
+	at com.zjb.utils.ReadConf.setUrlGenerateRandom(ReadConf.java:44)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:109)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+2021-01-26 09:10:26.858 [main] ERROR com.zjb.encode.EncodeFile - ExceptionTest Exception:
+java.lang.RuntimeException: org.apache.http.client.ClientProtocolException
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:75)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:122)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+Caused by: org.apache.http.client.ClientProtocolException: null
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:67)
+	... 3 common frames omitted
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	... 7 common frames omitted
+2021-01-26 09:10:26.859 [main] ERROR com.zjb.encode.EncodeFile - sm4Encode randomN is null or empty
+2021-01-26 09:10:26.859 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope randomN is null or empty
+2021-01-26 09:10:26.859 [main] ERROR com.zjb.utils.RWFile - writeFile: encrypted is null
+2021-01-26 09:12:04.923 [main] ERROR com.zjb.utils.ReadConf - ExceptionTest Exception:
+java.io.FileNotFoundException: D:\Program%20Files\javaworkspace\TestSm34\target\conf\config.properties (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.zjb.utils.ReadConf.readconf(ReadConf.java:98)
+	at com.zjb.utils.ReadConf.setUrlGenerateRandom(ReadConf.java:44)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:109)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+2021-01-26 09:12:05.665 [main] ERROR com.zjb.encode.EncodeFile - ExceptionTest Exception:
+java.lang.RuntimeException: org.apache.http.client.ClientProtocolException
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:75)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:122)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+Caused by: org.apache.http.client.ClientProtocolException: null
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:67)
+	... 3 common frames omitted
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	... 7 common frames omitted
+2021-01-26 09:12:05.665 [main] ERROR com.zjb.encode.EncodeFile - sm4Encode randomN is null or empty
+2021-01-26 09:12:05.665 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope randomN is null or empty
+2021-01-26 09:12:05.665 [main] ERROR com.zjb.utils.RWFile - writeFile: encrypted is null
+2021-01-26 09:20:50.556 [main] ERROR com.zjb.utils.ReadConf - ExceptionTest Exception:
+java.io.FileNotFoundException: D:\Program%20Files\javaworkspace\TestSm34\conf\config.properties (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.zjb.utils.ReadConf.readconf(ReadConf.java:98)
+	at com.zjb.utils.ReadConf.setUrlGenerateRandom(ReadConf.java:44)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:109)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+2021-01-26 09:20:51.226 [main] ERROR com.zjb.encode.EncodeFile - ExceptionTest Exception:
+java.lang.RuntimeException: org.apache.http.client.ClientProtocolException
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:75)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:122)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+Caused by: org.apache.http.client.ClientProtocolException: null
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:67)
+	... 3 common frames omitted
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	... 7 common frames omitted
+2021-01-26 09:20:51.227 [main] ERROR com.zjb.encode.EncodeFile - sm4Encode randomN is null or empty
+2021-01-26 09:20:51.227 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope randomN is null or empty
+2021-01-26 09:20:51.227 [main] ERROR com.zjb.utils.RWFile - writeFile: encrypted is null
+2021-01-26 09:26:00.018 [main] ERROR com.zjb.utils.ReadConf - ExceptionTest Exception:
+java.io.FileNotFoundException: D:\Program%20Files\javaworkspace\TestSm34\target\conf\config.properties (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.zjb.utils.ReadConf.readconf(ReadConf.java:98)
+	at com.zjb.utils.ReadConf.setUrlGenerateRandom(ReadConf.java:44)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:109)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+2021-01-26 09:26:00.695 [main] ERROR com.zjb.encode.EncodeFile - ExceptionTest Exception:
+java.lang.RuntimeException: org.apache.http.client.ClientProtocolException
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:75)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:122)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+Caused by: org.apache.http.client.ClientProtocolException: null
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:67)
+	... 3 common frames omitted
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	... 7 common frames omitted
+2021-01-26 09:26:00.695 [main] ERROR com.zjb.encode.EncodeFile - sm4Encode randomN is null or empty
+2021-01-26 09:26:00.695 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope randomN is null or empty
+2021-01-26 09:26:00.695 [main] ERROR com.zjb.utils.RWFile - writeFile: encrypted is null
+2021-01-26 09:31:46.540 [main] ERROR com.zjb.utils.ReadConf - ExceptionTest Exception:
+java.io.FileNotFoundException: D:\Program%20Files\javaworkspace\TestSm34\target\conf\encryptCrt.cert (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.zjb.utils.ReadConf.readcert(ReadConf.java:140)
+	at com.zjb.utils.ReadConf.main(ReadConf.java:164)
+2021-01-26 09:36:20.440 [main] ERROR com.zjb.utils.ReadConf - ExceptionTest Exception:
+java.io.FileNotFoundException: D:\Program Files\javaworkspace\TestSm34\target\conf\encryptCrt.cert (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.zjb.utils.ReadConf.readcert(ReadConf.java:142)
+	at com.zjb.utils.ReadConf.main(ReadConf.java:166)
+2021-01-26 09:42:16.246 [main] ERROR com.zjb.encode.EncodeFile - ExceptionTest Exception:
+java.lang.RuntimeException: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.113.131:8083 [/192.168.113.131] failed: Connection timed out: connect
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:75)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:122)
+	at com.zjb.utils.RWFile.enFile1(RWFile.java:87)
+	at com.zjb.utils.RWFile.main(RWFile.java:41)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.113.131:8083 [/192.168.113.131] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:67)
+	... 3 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 14 common frames omitted
+2021-01-26 09:42:16.247 [main] ERROR com.zjb.encode.EncodeFile - sm4Encode randomN is null or empty
+2021-01-26 09:42:16.248 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope randomN is null or empty
+2021-01-26 09:42:16.250 [main] ERROR com.zjb.utils.RWFile - writeFile: encrypted is null
+2021-01-26 09:42:49.082 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope = 16777217
+2021-01-26 09:43:40.332 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope = 16777217
+2021-01-26 09:47:37.598 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope = 16777217
+2021-01-26 09:49:26.802 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope = 16777217
+2021-01-26 09:50:15.458 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope = 16777217
+2021-01-26 09:51:53.972 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope = 16777217
+2021-01-26 09:55:18.780 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope = 16777217
+2021-01-26 09:55:33.556 [main] ERROR com.zjb.encode.EncodeFile - encodeSignedAndEnvelope = 16777217
+2021-01-26 10:50:51.474 [main] ERROR com.zjb.encode.EncodeFile - ExceptionTest Exception:
+java.lang.RuntimeException: org.apache.http.conn.HttpHostConnectException: Connect to 172.31.113.244:8083 [/172.31.113.244] failed: Connection timed out: connect
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:75)
+	at com.zjb.decode.DecodeFile.decodeSignedAndEnvelope(DecodeFile.java:138)
+	at com.zjb.utils.RWFile.deFile1(RWFile.java:275)
+	at com.zjb.utils.RWFile.main(RWFile.java:42)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 172.31.113.244:8083 [/172.31.113.244] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:67)
+	... 3 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 14 common frames omitted
+2021-01-26 10:52:51.833 [main] ERROR com.zjb.encode.EncodeFile - decodeSignedAndEnvelope code = 16777217
+2021-01-26 15:47:36.139 [main] ERROR com.zjb.encode.EncodeFile - ExceptionTest Exception:
+java.lang.RuntimeException: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.113.131:8083 [/192.168.113.131] failed: Connection timed out: connect
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:75)
+	at com.zjb.encode.EncodeFile.generateRandom(EncodeFile.java:125)
+	at com.zjb.utils.FileUtils.enFileCycle(FileUtils.java:111)
+	at com.zjb.utils.FileUtils.main(FileUtils.java:197)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.113.131:8083 [/192.168.113.131] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.zjb.utils.HttpClientUtils.doPost(HttpClientUtils.java:67)
+	... 3 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 14 common frames omitted
+2021-01-26 15:47:36.169 [main] ERROR com.zjb.encode.EncodeFile - sm4Encode randomN is null or empty

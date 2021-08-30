@@ -1,0 +1,5 @@
+2021-03-24 16:38:55.830 [main] ERROR com.zjb.utils.RWFile - obs upload fail
+2021-03-24 16:39:40.133 [main] ERROR com.zjb.utils.RWFile - obs upload fail
+2021-03-24 16:41:39.878 [main] ERROR com.zjb.utils.RWFile - obs upload fail
+2021-03-24 16:44:22.898 [main] ERROR com.zjb.utils.RWFile - OBS servcie Error Message. Request Error: java.net.UnknownHostException: bucket-etl-1.obs.cn-north-1.myhuaweicloud.com
+2021-03-24 16:44:22.898 [main] ERROR com.zjb.utils.RWFile - obs upload fail

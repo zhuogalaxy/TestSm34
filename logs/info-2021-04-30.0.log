@@ -1,0 +1,40 @@
+2021-04-30 10:15:18.789 [main] INFO  com.zjb.utils.RWFile - readFile: finish
+2021-04-30 10:15:18.805 [main] INFO  com.zjb.utils.RWFile - readFile use time: 31 ms
+2021-04-30 10:15:18.883 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 10:15:18.899 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 10:15:18.899 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 10:15:18.899 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 10:15:18.899 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 10:15:20.508 [main] INFO  com.zjb.encode.EncodeFile - decodeSignedAndEnvelope success!
+2021-04-30 10:15:20.508 [main] INFO  com.zjb.utils.RWFile - decodeSignedAndEnvelope use time: 1703 ms
+2021-04-30 10:15:20.539 [main] INFO  com.zjb.utils.RWFile - deFile: decode file success
+2021-04-30 10:24:07.568 [main] INFO  com.zjb.utils.RWFile - readFile: finish
+2021-04-30 10:24:07.568 [main] INFO  com.zjb.utils.RWFile - readFile use time: 16 ms
+2021-04-30 10:24:07.584 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 10:24:07.584 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 10:24:07.584 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 10:24:07.584 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 10:24:07.584 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 10:24:08.474 [main] INFO  com.zjb.encode.EncodeFile - decodeSignedAndEnvelope success!
+2021-04-30 10:24:08.474 [main] INFO  com.zjb.utils.RWFile - decodeSignedAndEnvelope use time: 906 ms
+2021-04-30 10:24:08.474 [main] INFO  com.zjb.utils.RWFile - deFile: decode file success
+2021-04-30 11:19:43.402 [main] INFO  com.zjb.utils.RWFile - readFile: finish
+2021-04-30 11:19:43.402 [main] INFO  com.zjb.utils.RWFile - readFile use time: 15 ms
+2021-04-30 11:19:43.418 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 11:19:43.418 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 11:19:43.418 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 11:19:43.418 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 11:19:43.418 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 11:19:44.340 [main] INFO  com.zjb.encode.EncodeFile - decodeSignedAndEnvelope success!
+2021-04-30 11:19:44.340 [main] INFO  com.zjb.utils.RWFile - decodeSignedAndEnvelope use time: 938 ms
+2021-04-30 11:19:44.340 [main] INFO  com.zjb.utils.RWFile - deFile: decode file success
+2021-04-30 11:20:58.551 [main] INFO  com.zjb.utils.RWFile - readFile: finish
+2021-04-30 11:20:58.566 [main] INFO  com.zjb.utils.RWFile - readFile use time: 15 ms
+2021-04-30 11:20:58.566 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 11:20:58.566 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 11:20:58.566 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 11:20:58.582 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 11:20:58.582 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-04-30 11:20:59.488 [main] INFO  com.zjb.encode.EncodeFile - decodeSignedAndEnvelope success!
+2021-04-30 11:20:59.488 [main] INFO  com.zjb.utils.RWFile - decodeSignedAndEnvelope use time: 922 ms
+2021-04-30 11:20:59.535 [main] INFO  com.zjb.utils.RWFile - deFile: decode file success

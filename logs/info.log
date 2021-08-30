@@ -1,0 +1,17 @@
+2021-08-07 13:36:50.517 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-08-07 13:42:28.159 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-08-07 13:42:29.892 [main] INFO  com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:43:32.046 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-08-07 13:43:33.823 [main] INFO  com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:44:42.476 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-08-07 13:44:43.989 [main] INFO  com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:46:02.342 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-08-07 13:46:03.752 [main] INFO  com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:48:49.692 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-08-07 13:48:51.083 [main] INFO  com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:50:02.507 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-08-07 13:50:03.842 [main] INFO  com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:50:24.914 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-08-07 13:50:26.198 [main] INFO  com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:50:41.497 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-08-07 13:50:42.888 [main] INFO  com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404

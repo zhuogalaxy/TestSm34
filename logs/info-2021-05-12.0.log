@@ -1,0 +1,87 @@
+2021-05-12 08:32:40.560 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 08:32:40.576 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 08:32:40.576 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 09:16:37.471 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 09:16:37.487 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 09:16:37.487 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 09:16:37.487 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:08:37.079 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:08:37.095 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:08:37.095 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:08:37.095 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:08:38.611 [main] INFO  com.zjb.encode.EncodeFile - generateRandom success!
+2021-05-12 10:08:38.611 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:08:38.611 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:08:38.611 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:08:38.611 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:08:38.626 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:08:38.736 [main] INFO  com.zjb.encode.EncodeFile - unionSignedAndEnvelope success!
+2021-05-12 10:08:38.736 [main] INFO  com.zjb.utils.RWFile - writeFile: finish
+2021-05-12 10:08:38.736 [main] INFO  com.zjb.utils.RWFile - enFile: encode file success
+2021-05-12 10:08:38.782 [main] INFO  com.zjb.utils.RWFile - D:\testZip\tes@1mzBuk7aHNQiqlNFwqcDKQvvQbGku388siKrqee-Zbo=.dat rename success
+2021-05-12 10:13:38.192 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:13:38.192 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:13:38.192 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:13:38.207 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:13:39.270 [main] INFO  com.zjb.encode.EncodeFile - generateRandom success!
+2021-05-12 10:13:39.270 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:13:39.270 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:13:39.270 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:13:39.270 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:13:39.270 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:13:39.317 [main] INFO  com.zjb.encode.EncodeFile - unionSignedAndEnvelope success!
+2021-05-12 10:13:39.317 [main] INFO  com.zjb.utils.RWFile - writeFile: finish
+2021-05-12 10:13:39.317 [main] INFO  com.zjb.utils.RWFile - enFile: encode file success
+2021-05-12 10:13:39.332 [main] INFO  com.zjb.utils.RWFile - D:\testZip\testdat\11000000000020210512100500&11000000000020214331164307_p_data_extract_t.txt@qzJeTNAz45Xv7D-+Cd1bQP20Oah+g7tZ7QmDrN5ieDM=.dat rename success
+2021-05-12 10:14:05.966 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:14:05.966 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:14:05.966 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:14:05.966 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:14:07.012 [main] INFO  com.zjb.encode.EncodeFile - generateRandom success!
+2021-05-12 10:14:07.012 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:14:07.012 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:14:07.012 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:14:07.012 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:14:07.012 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:14:07.059 [main] INFO  com.zjb.encode.EncodeFile - unionSignedAndEnvelope success!
+2021-05-12 10:14:07.059 [main] INFO  com.zjb.utils.RWFile - writeFile: finish
+2021-05-12 10:14:07.106 [main] INFO  com.zjb.utils.RWFile - enFile: encode file success
+2021-05-12 10:14:07.106 [main] INFO  com.zjb.utils.RWFile - D:\testZip\testdat\11000000000020210512100500&11000000000020214331164307_p_data_extract_t.txt@KwlG1lWY4mm338PJSejkT-jFPedGM8hTrUrdSWSrVLg=.dat rename success
+2021-05-12 10:39:59.772 [main] INFO  com.zjb.utils.RWFile - readFile: finish
+2021-05-12 10:39:59.788 [main] INFO  com.zjb.utils.RWFile - readFile use time: 63 ms
+2021-05-12 10:39:59.850 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:39:59.850 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:39:59.850 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:39:59.850 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:39:59.850 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:40:39.856 [main] INFO  com.zjb.utils.RWFile - readFile: finish
+2021-05-12 10:40:39.856 [main] INFO  com.zjb.utils.RWFile - readFile use time: 31 ms
+2021-05-12 10:40:39.888 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:40:39.903 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:40:39.903 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:40:39.903 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:40:39.903 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:47:47.439 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:47:47.502 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:47:47.502 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:47:47.502 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:47:48.643 [main] INFO  com.zjb.encode.EncodeFile - generateRandom success!
+2021-05-12 10:47:48.643 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:47:48.643 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:47:48.643 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:47:48.643 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:47:48.643 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:47:48.689 [main] INFO  com.zjb.encode.EncodeFile - unionSignedAndEnvelope success!
+2021-05-12 10:47:48.689 [main] INFO  com.zjb.utils.RWFile - writeFile: finish
+2021-05-12 10:47:48.705 [main] INFO  com.zjb.utils.RWFile - enFile: encode file success
+2021-05-12 10:47:48.721 [main] INFO  com.zjb.utils.RWFile - D:\testZip\testdat\11000000000020210512100500&11000000000020214331164307_p_data_extract_t.txt@U3mR2KRw+z4mM3jMG8W1r-YU8MGaGXHW6Assiqc+Neg=.dat rename success
+2021-05-12 10:56:18.904 [main] INFO  com.zjb.utils.RWFile - readFile: finish
+2021-05-12 10:56:18.904 [main] INFO  com.zjb.utils.RWFile - readFile use time: 31 ms
+2021-05-12 10:56:18.919 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:56:18.919 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:56:18.919 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:56:18.919 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:56:18.919 [main] INFO  com.zjb.utils.ReadConf - path = D:\Program Files\javaworkspace\TestSm34\
+2021-05-12 10:56:19.982 [main] INFO  com.zjb.encode.EncodeFile - decodeSignedAndEnvelope success!
+2021-05-12 10:56:19.982 [main] INFO  com.zjb.utils.RWFile - decodeSignedAndEnvelope use time: 1078 ms
+2021-05-12 10:56:19.997 [main] INFO  com.zjb.utils.RWFile - deFile: decode file success

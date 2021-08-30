@@ -1,0 +1,13 @@
+2021-03-30 11:48:25.338 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testdat\G11000000000020210318183409_his_photo_t.xml is not file
+2021-03-30 11:48:25.338 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testdat\G11000000000020210318183409_his_photo_t.xml is not file
+2021-03-30 13:29:32.892 [main] ERROR com.zjb.utils.RWFile - ExceptionTest Exception:
+java.io.FileNotFoundException: D:	estZip	estencode\L11000000000020210309134129_his_photo_t.xml (文件名、目录名或卷标语法不正确。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:124)
+	at com.zjb.utils.RWFile.enFile2(RWFile.java:321)
+	at com.zjb.utils.RWFile.main(RWFile.java:47)
+2021-03-30 13:33:10.746 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testencode\L11000000000020210309134129_his_photo_t.xmlrename fail
+2021-03-30 13:42:24.703 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testencode\L11000000000020210309134129_his_photo_t.xmlrename fail
+2021-03-30 13:59:52.512 [main] ERROR com.zjb.utils.RWFile - D:\testZip\testencode\L11000000000020210309134129_his_photo_t.xml is not file

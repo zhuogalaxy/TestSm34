@@ -1,0 +1,12 @@
+2021-08-07 13:42:29.892 [main] ERROR com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:43:33.823 [main] ERROR com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:44:43.989 [main] ERROR com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:44:43.991 [main] ERROR com.zjb.obs.Urlutils - null
+2021-08-07 13:44:43.991 [main] ERROR com.zjb.obs.Urlutils - image2Base64 fail
+2021-08-07 13:46:03.753 [main] ERROR com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:46:03.755 [main] ERROR com.zjb.obs.Urlutils - null
+2021-08-07 13:46:03.755 [main] ERROR com.zjb.obs.Urlutils - image2Base64 fail
+2021-08-07 13:48:51.084 [main] ERROR com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:50:03.842 [main] ERROR com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:50:26.199 [main] ERROR com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
+2021-08-07 13:50:42.888 [main] ERROR com.zjb.obs.Urlutils - httpUrl.getResponseCode() = 404
